@@ -6,6 +6,12 @@ public class Student {
     private int age;
     private String course;
 
+    public Student() {
+        this.name = "Nobody";
+        this.age = 0;
+        this.course = "Nothing";
+    }
+
     public Student(String name, int age, String course) {
         this.name = name;
         this.age = Math.max(age, 0);
